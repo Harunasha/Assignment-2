@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+nav ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav li a{
+    text-decoration: none;
+}
+.Travel-color{
+    color: #FF5400;
+}
+.container{
+    position: relative;
+    width: 50%;
+    
+}
+.container img {
+width: 100%;
+height: auto;
+}
+.container .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
